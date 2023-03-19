@@ -23,7 +23,7 @@ describe('Buy', () => {
     cy.get(text.testHall).invoke('text').then((name) => {
       cy.visit("qamid.tmweb.ru");
       cy.get('.page-nav__day').eq(4).click() 
-      cy.get(text.bayTestHall).should('have.text', name);
+      cy.get(text.buyTestHall).should('have.text', name);
     })
     sets.forEach((current) => {
         cy.visit('/')
