@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:bayTeckets": "cypress run --record --key 18a80020-05ae-4163-91c6-d05a795af976 --group bayTeckets --ci-build-id 7 --spec 'cypress/e2e/bayTeckets.cy.js'",
-    "test:login": "cypress run --record --key 18a80020-05ae-4163-91c6-d05a795af976 --group login --ci-build-id 7 --spec 'cypress/e2e/login.cy.js'",
-    "test:movies": "cypress run --record --key 18a80020-05ae-4163-91c6-d05a795af976 --group movies --ci-build-id 7 --spec 'cypress/e2e/movies.cy.js'",
-    "test:parallel": "run-p -c --aggregate-output test:bayTeckets test:login test:movies"
+    "test:bayTeckets": "cypress run --record --key e59f27e1-5e21-40b7-b787-4a61d7f4f47a --group bayTeckets --ci-build-id 7 --spec 'cypress/e2e/buyTickets.cy.js'",
+    "test:login": "cypress run --record --key e59f27e1-5e21-40b7-b787-4a61d7f4f47a --group login --ci-build-id 7 --spec 'cypress/e2e/login.cy.js'",
+    "test:movies": "cypress run --record --key e59f27e1-5e21-40b7-b787-4a61d7f4f47a --group movies --ci-build-id 7 --spec 'cypress/e2e/movies.cy.js'",
+    "test:parallel": "run-p -c --aggregate-output test:buyTickets test:login test:movies"
   },
   "keywords": [],
   "author": "",
